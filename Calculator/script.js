@@ -1,6 +1,6 @@
 const inputValue = document.getElementById("userinput");
 
-let calcHistory = "";
+let calcHistory = [];
 
 const calculate = document.querySelectorAll(".bodmas").forEach(function (item) {
   item.addEventListener("click", function (e) {
